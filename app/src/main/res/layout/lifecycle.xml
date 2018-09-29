@@ -29,7 +29,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
-        android:text="Dangwa Flower Market"
+        android:text="Marikina Sports Center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -45,7 +45,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Location: Dimasalang Road and Dos Castillas, Manila, Luzon, Philippines "
+        android:text="Location: Sumulong Highway, Marikina, Luzon, Philippines "
         android:textColor="@color/colorAccent"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,13 +60,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Distance from UST: 1.2 km"
+        android:text="Distance from UST: 16.6 km"
         android:textColor="@color/colorAccent"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.866" />
 
     <Button
         android:id="@+id/button3"
